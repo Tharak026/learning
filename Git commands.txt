@@ -1,0 +1,103 @@
+$ git add file1.txt
+git config --global user.name "tharak026"
+git config --global user.email "tharak026@gmail.com"
+
+echo "# test123" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Tharak026/test123.git
+git push -u origin main
+
+
+
+Create a repository name called "terraform repo"
+file name "main.tf"
+content:
+provider "aws" {
+  region = var.region
+}
+
+
+
+entering into a directory
+#cd <directory name>
+
+to create a file
+#touch <file name>
+
+to insert the content in a file
+#vi <file name>
+
+to save the file
+esc : wq ! (without space)
+
+to view the content in a file
+#cat <file name>
+
+To push the file into a git repo
+#git add . or git add <file name>
+#git status
+#git commit -m "message"
+#git push
+#git pull
+
+
+
+________________________________________________________________________________________________________________________________________________
+Overview of the GIT:
+
+
+check the path:
+-pwd
+
+
+repository cloning
+
+ -git clone https://github.com/Tharak026/terraform-repo.git 
+
+
+entering the repository
+-cd <repositary name>
+
+create file name
+-touch <file name>
+
+to add the content
+-vi <file name>
+
+file save
+- esc+shift+:wq!
+
+To push the file into a git repo
+#git add . or git add <file name>
+#git status
+#git commit -m "message"
+#git push
+#git pull
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
